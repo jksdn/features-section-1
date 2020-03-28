@@ -1,0 +1,167 @@
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+.Ai\(c\) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Bgc\(\#6875f5\) {
+  background-color: #6875f5;
+}
+
+.Bdrs\(4px\) {
+  border-radius: 4px;
+}
+
+.C\(\#fff\) {
+  color: #fff;
+}
+
+.C\(\#161e2e\) {
+  color: #161e2e;
+}
+
+.C\(\#5a67d8\) {
+  color: #5a67d8;
+}
+
+.C\(\#6b7280\) {
+  color: #6b7280;
+}
+
+.D\(f\) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Fw\(500\) {
+  font-weight: 500;
+}
+
+.Fw\(600\) {
+  font-weight: 600;
+}
+
+.Fw\(800\) {
+  font-weight: 800;
+}
+
+.Fxs\(0\) {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.Fz\(1rem\) {
+  font-size: 1rem;
+}
+
+.Fz\(1\.125rem\) {
+  font-size: 1.125rem;
+}
+
+.Fz\(1\.875rem\) {
+  font-size: 1.875rem;
+}
+
+.H\(1\.5rem\) {
+  height: 1.5rem;
+}
+
+.H\(3rem\) {
+  height: 3rem;
+}
+
+.Jc\(c\) {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Lh\(1\.2\) {
+  line-height: 1.2;
+}
+
+.Lh\(1\.5\) {
+  line-height: 1.5;
+}
+
+.Lts\(-0\.025rem\) {
+  letter-spacing: -0.025rem;
+}
+
+.Lts\(0\.025rem\) {
+  letter-spacing: 0.025rem;
+}
+
+.Mb\(0\) {
+  margin-bottom: 0;
+}
+
+.Mb\(0\.5rem\) {
+  margin-bottom: 0.5rem;
+}
+
+.Mb\(1rem\) {
+  margin-bottom: 1rem;
+}
+
+.Mb\(2\.5rem\) {
+  margin-bottom: 2.5rem;
+}
+
+.Mstart\(1rem\) {
+  margin-left: 1rem;
+}
+
+.Mt\(0\.5rem\) {
+  margin-top: 0.5rem;
+}
+
+.Py\(3rem\) {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.Tt\(u\) {
+  text-transform: uppercase;
+}
+
+.W\(1\.5rem\) {
+  width: 1.5rem;
+}
+
+.W\(3rem\) {
+  width: 3rem;
+}
+
+@media (min-width: 576px) {
+  .Fz\(1\.25rem\)--sm {
+    font-size: 1.25rem;
+  }
+  .Fz\(2\.25rem\)--sm {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .Ta\(c\)--md {
+    text-align: center;
+  }
+}
